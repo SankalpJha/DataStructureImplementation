@@ -2,9 +2,9 @@ package com.fourhorsemen;
 
 public class Queue {
 
-	int[] queue = null;
-	int first = 0;
-	int last = 0;
+	private int[] queue = null;
+	private int first = 0;
+	private int last = 0;
 
 	public Queue(int n) {
 		queue = new int[n];
