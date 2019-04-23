@@ -1,4 +1,8 @@
 package com.fourhorsemen;
+/*
+ * This class is an implementation of Data Structures. 
+ * You can see the names used and identify the type DS used.
+ */
 
 public class DSImplementation {
 

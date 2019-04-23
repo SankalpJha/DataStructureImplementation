@@ -31,7 +31,8 @@ public class Queue {
 	public int remove() {
 		int removedVal = -9999;
 		if(this.first==0 && this.last==0) {
-			queue=null;
+			this.queue[this.first] = 0;
+			removedVal = this.queue[this.first];
 		}else {
 			this.queue[this.first] = 0;
 			removedVal = this.queue[this.first];
